@@ -1,0 +1,32 @@
+.motorcycle {
+  height: 100%;
+}
+.bg {
+  background-image: url("motorcycle-1.jpg");
+  min-height: 100%;
+  background-position: center;
+  padding: 0;
+  background-size: cover;
+} 
+.grow{
+  min-width: 100%;
+  flex-grow:1;
+  padding: 0px;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.no-margin{
+  margin:0;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
